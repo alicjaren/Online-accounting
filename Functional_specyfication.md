@@ -50,14 +50,37 @@
  
  
 #### 4. Dokonanie rozliczenia miesięcznego - uzyskanie danych potrzebnych do wypełnienia deklaracji
-  - rozliczenie podatku należnego - wyliczenie przez system dla użytkownika : 
-          - ddd
-  - rozliczenie podatku naliczonego - wyliczenie przez system dla użytkownika:        
-  - podanie przez system kwoty nadwyżki z poprzedniej deklaracji;
-  - 
+  - rozliczenie podatku należnego - wyliczenie przez system dla użytkownika: 
+    - podstawy opodatkowania oraz podatku należnego dla towarów i usług opodatkowanych stawką 5%,
+    - podstawy opodatkowania oraz podatku należnego dla towarów i usług opodatkowanych stawką 8%,
+    - podstawy opodatkowania oraz podatku należnego dla towarów i usług opodatkowanych stawką 23%,
+    - sumy podstaw opodatkowania oraz sumy podatku należnego;
+  - rozliczenie podatku naliczonego - wyliczenie przez system dla użytkownika:
+    - wartości netto nabycia towarów i usług zaliczanych do środków trwałych,
+    - wartości podatku naliczonego z nabytych towarów i usług zaliczanych do środków trwałych,
+    - wartości netto nabycia towrów i usuług pozostałych,
+    - wartości podatku naliczonrgo z nabytych towarów i usług pozostałych;
+  - podanie przez system kwoty nadwyżki z poprzedniej deklaracji (przy pierwszym skorzystaniu z usługi system poprosi użytkownika o podanie tej kwoty);
+  - podanie przez system łącznej kwoty podatku naliczonego do odliczenia;
+  - podanie przez system kwoty podatku podlegającego wpłacie do urzędu skarbowego;
+  - podanie przez system kwoty nadwyżki podatku naliczonego nad należnym (jest ona równa 0, gdy kwota podatku podlegającego wpłacie do urzędu skarbowego jest większa od 0);
+  - jeśli występuje nadwyżka podatku naliczonego nad należnym, wprowadzenie przez użytkownika: 
+      - łącznej kwoty do zwrotu na rachunek bankowy,
+      - kwoty do zwrotu w terminie 25 dni,
+      - kwoty do zwrotu w terminie 60 dni,
+      - kwoty do zwrotu w terminie 180 dni.
+  - podanie przez system kwoty do przeniesienia na następny okres rozliczeniowy.
   
   
 #### 5. Podgląd ewidencji z każdego miesiąca 
   - podgląd rejestru sprzedaży,
-  - podgląd rejestru zakupu;
+  - podgląd rejestru zakupu,
   - podgląd rozliczenia miesięcznego (kwoty używane w deklaracji składanej w urzędzie skarobowym);
+  
+  
+#### 6. Pobranie pliku w formacie PDF dla każdego miesiąca
+  - rejestr sprzedaży,
+  - rejestr zakupu,
+  - rozliczenie miesięczne (kwoty używane w deklaracji składanej w urzędzie skarobowym);
+  
+#### 7. Przypomnienie drogą mailową o konieczności dokonania rozliczenia miesięcznego i złożenia deklaracji 20. dnia każdego miesiąca
