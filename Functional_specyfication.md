@@ -99,8 +99,8 @@
   
   
   
-  ### Sposób korzystania z systemu
-    1. Użytkownik odwiedza stronę serwisu;
-    2. Użytkownik rejestruje się w serwsie, gdy chce rozpocząć korzystanie z usługi;
-    3. Użytkownik loguje się przy użyciu loginu oraz hasła, jeśli wcześniej zarejestrował się w serwisie;
+### Sposób korzystania z systemu
+   1. Użytkownik odwiedza stronę serwisu;
+   2. Użytkownik rejestruje się w serwsie, gdy chce rozpocząć korzystanie z usługi;
+   3. Użytkownik loguje się przy użyciu loginu oraz hasła, jeśli wcześniej zarejestrował się w serwisie.
     
