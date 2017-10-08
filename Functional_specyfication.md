@@ -33,7 +33,7 @@
     - zaznaczenie, czy **podatek naliczony od kolejnych zakupów z faktury podlega odliczeniu**,
     - zaznaczenie, czy kolejne zakupy z wprowadzanej faktury są **środkami trwałymi**;
   - Ustawienie przez system daty wpływu faktry na datę wprowadzenia jej do systemu;
-  - Wprowadzenie przez system faktury do rozliczenia, pod warunkiem, że od daty wystawienia do daty wprowadzenia upłynęły maksymalnie 3 miesiące, w przeciwnym razie system informuje o braku możliwości dokonania rozliczenia;
+  - Wprowadzenie przez system faktury do rozliczenia, pod warunkiem, że od daty wystawienia do daty wprowadzenia upłynęły maksymalnie 3 miesiące, w przeciwnym razie system informuje o braku możliwości odliczenia podatku VAT z tej faktury;
   
     
 #### 3. Wprowadzenie faktury sprzedaży do systemu - rejestru sprzedaży
