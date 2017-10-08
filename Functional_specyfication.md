@@ -33,6 +33,7 @@
     - zaznaczenie, czy **podatek naliczony od kolejnych zakupów z faktury podlega odliczeniu**,
     - zaznaczenie, czy kolejne zakupy z wprowadzanej faktury są **środkami trwałymi**;
   - Ustawienie przez system daty wpływu faktry na datę wprowadzenia jej do systemu;
+  - Wprowadzenie przez system faktury do rozliczenia, pod warunkiem, że od daty wystawienia do daty wprowadzenia upłynęły maksymalnie 3 miesiące, w przeciwnym razie system informuje o braku możliwości dokonania rozliczenia;
   
     
 #### 3. Wprowadzenie faktury sprzedaży do systemu - rejestru sprzedaży
@@ -82,5 +83,24 @@
   - rejestr sprzedaży,
   - rejestr zakupu,
   - rozliczenie miesięczne (kwoty używane w deklaracji składanej w urzędzie skarobowym);
-  
+ 
+ 
 #### 7. Przypomnienie drogą mailową o konieczności dokonania rozliczenia miesięcznego i złożenia deklaracji 20. dnia każdego miesiąca
+
+
+
+### Uwagi formalne
+  1. Obowiązującym w systemie słownikiem stawek VAT są stawki: 5%, 8% i 23%;
+  2. Jednostką dla wszystkich kwot jest Złoty polski (PLN);
+  3. Kwoty występujące w rejestrze sprzedaży i zakupu są podawane z dokładnością do 2 miejsc po przecinku;
+  4. Wymaganą dokładnością kwoty podczas wprowadzania faktur do rejestrów są 2 miejsca po przecinku;
+  5. Wszystkie kwoty dla dokonania rozliczenia do urzędu skarbowego podawane są z zaokrągleniem do pełnych złotych;
+  6. Wszystkie kwoty dla dokonania rozliczenia do urzędu skarbowego, które podaje użytkowik muszą być podawane z zaokrągleniem do pełnych złotych.
+  
+  
+  
+  ### Sposób korzystania z systemu
+    1. Użytkownik odwiedza stronę serwisu;
+    2. Użytkownik rejestruje się w serwsie, gdy chce rozpocząć korzystanie z usługi;
+    3. Użytkownik loguje się przy użyciu loginu oraz hasła, jeśli wcześniej zarejestrował się w serwisie;
+    
