@@ -1,2 +1,2 @@
-"Online-accounting - functional specyfication" 
-"Internetowy system prowadzenia księgowości - rozliczanie VAT-7"
+# Online-accounting - functional specyfication 
+## Internetowy system prowadzenia księgowości - rozliczanie VAT-7
